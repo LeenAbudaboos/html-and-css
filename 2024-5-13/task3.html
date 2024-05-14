@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Static Positioning Example</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .box {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  margin: 1px;
+  display: inline-block;
+  position: static ;
+  background: red;
+}
+.cont{
+    border: dashed; display: inline-block;
+}
+span{
+    background: green;
+}
+
+.box2,.box3 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: #ff0000;
+    display: inline-block;
+  }
+
+  .box3 {
+    top: 20px;
+    right: 20px;
+  }
+
+  </style>
+</head>
+<body>
+
+    <h3>position: static</h3>
+<div class="cont" >
+  <div class="box">one</div>
+<div class="box" style="background: green;">two</div>
+  <div class="box">three</div>
+  <div class="box">four</div>
+</div>
+
+<h3>position: relative</h3>
+<div class="cont" style="position: relative;" >
+    <div class="box2">one</div>
+  <div class="box3" style="background: green;">two</div>
+    <div class="box2">three</div>
+    <div class="box2">four</div>
+  </div>
+<br>
+  <h3>position: absolute</h3>
+
+</body>
+</html>
