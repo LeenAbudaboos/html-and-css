@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  align-content: center;
+}
+p{
+    font-size: 21px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-column: 1 / span 4;
+  grid-row: 1;
+  background-image:url(pexels-arturoaez220-13650913.jpg);
+  color: aliceblue;
+ 
+
+}
+button{
+    color: aliceblue;
+    background-color: black;
+    padding: .8%;
+}
+
+.item2 {
+ grid-column: 1 / span 4;
+  grid-row: 2;
+  background-color: white;
+}
+.item3 {
+ grid-column: 1 / span 4;
+  grid-row: 3;
+  background-color: rgb(61, 54, 54);
+  justify-content: center;
+}
+.item4 {
+ grid-column: 1 / span 4;
+  grid-row: 4;
+  background-color: white;
+}
+
+.item5 {
+  grid-column:1 / span 2;
+  grid-row: 5;
+  color: white;
+  background-color: #2196F3;
+}
+.item6 {
+  grid-column: span 2 /span 4;
+  grid-row: 5;
+  color: white;
+  background-color: rgb(61, 54, 54);
+}
+.item7 {
+  grid-column: 1 /span 4;
+  grid-row: 7;
+  color: white;
+  background-color: rgb(0, 0, 0);
+
+}
+
+.item3-3{
+  background-color: aliceblue;
+  height:600px ;
+  width: 400px;
+  margin: 6px;
+  
+  }
+
+</style>
+</head>
+<body>
+
+
+<div class="grid-container " >
+  <div class="grid-item item1">
+    <h1>Welcome to Responsive Web</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae unde alias quod harum maxime, dolorum aspematur beatae incidunt quam enim.</p>
+    <button>Read more</button>
+</div>
+
+  <div class="grid-item item2">
+    <h2>Responsive Web Development</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam aliquam fugiat molestiae natus, dolorum, maiores inventore perferendis officiis rem earum veritatis anımil Ex veniam impedit, nam, cumque unde aliquam delectus, quia ratione alias tempore molestias fugit totam corrupti cum nulla.
+    </p>
+  </div>
+
+  <div class="grid-item item3" style="display: flex;  flex-wrap: wrap;
+       ">
+
+     <div class="item3-3"  >
+        <img src="pexels-pixabay-164357.jpg" style="width: 400px;" alt="">
+        <h6>Why Responsive?</h6>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis placeat,
+             reprehenderit odio eum eveniet nisi odit nemo nobis molestiae corrupti</p>
+     </div>
+     
+     <div class="item3-3" >
+        <img src="pexels-pixabay-164357.jpg" style="width: 400px;" alt="">
+        <h6>Why Responsive?</h6>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis placeat,
+             reprehenderit odio eum eveniet nisi odit nemo nobis molestiae corrupti</p>
+     </div>
+
+     
+     <div class="item3-3"  >
+        <img src="pexels-pixabay-164357.jpg" style="width: 400px;" alt="">
+        <h6>Why Responsive?</h6>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis placeat,
+             reprehenderit odio eum eveniet nisi odit nemo nobis molestiae corrupti</p>
+     </div>
+  </div> 
+
+  <div class="grid-item item4">
+    <h2>Develop Your Website</h2>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, magnam. Maxime itaque, a eligendi impedit quis reiciendis possimus ullam inventore</p>
+  </div>
+
+  <div class="grid-item item5" style=" display: flex; flex-direction: column;">
+    <h2>Contact Us</h2>
+    <p>Consectetur adipisicing elit. Esse, dolonibus possimus voluptatum, laudantium est incidunt?</p>
+    
+   <p><a href="info@webresponsive.com">info@webresponsive.com</a></p> 
+</div>
+
+  <div class="grid-item item6" style=" display: flex; flex-direction: column;">
+    <h2>About Us</h2>
+    <p>Consectetur adipisicing elit. Esse, dolonibus possimus voluptatum, laudantium est incidunt?</p>
+   
+   <p><a href="www.webresponsive.com">www.webresponsive.com</a></p> 
+  </div>
+
+  <div class="grid-item item7"><p style="font-size: 11px;" >Lorem ipsum dolor sit</p> 
+     <p style="font-size: 11px;">Esse, doloribus <a href="respnsive.html">possimus voluptatum</a></p></div>
+  
+</div>
+
+
+</body>
+</html>
+
+
